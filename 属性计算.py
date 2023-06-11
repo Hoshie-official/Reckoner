@@ -25,7 +25,7 @@ Label(top,text = "这是一个标签").grid(row = 0,column = 0,padx=30,pady=5)
 contentVar = StringVar(top, '')
 # 创建单行文本框
 c1 = Entry(top, textvariable=contentVar)
-# 设置文本框为只读
+# 设置文本框为只读设为只读时似乎无法写入数据，当然可能有其他处理方法暂时不清楚。
 #c1['state'] = 'readonly'
 # 设置文本框坐标及宽高
 c1.grid(row=0,column=0,padx=30,pady=5)
