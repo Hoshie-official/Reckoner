@@ -3,6 +3,7 @@ def show(a1):
 	c1.delete(0,"end")
 	e1 = a1.get()
 	e1 = float(e1)
+	#定义个E1来获取输入框的字符，然后转为浮点数
 	e2 = a2.get()
 	e2 = float(e2)
 	e3 = a3.get()
