@@ -8,7 +8,7 @@ def calculate():
     y = float(entry2.get())
     z = float(entry3.get())
     # 计算结果，并保留一位小数
-    result = round(x + 2*y + z/10, 1)
+    result = round(2.5*x + 1.5*y + z/10, 1)
     # 将计算结果展示在标签 display 中（将浮点数转换成字符串）
     # 所以这个公式是x+2y+z/10，不过只能通过修改代码来更换公式，感觉……没有适用性
     
